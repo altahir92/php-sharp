@@ -1,4 +1,11 @@
-<phpunit bootstrap="vendor/autoload.php">
+<phpunit bootstrap="vendor/autoload.php"
+	colors="true"
+	convertErrorToException="true"
+	convertNoticesToException="true"
+	convertWarningToException="true"
+	processIsolation="false"
+	stopOpenFailure="true"
+	syntaxCheck="false">
   <testsuites>
     <testsuite name="tests">
       <directory>tests</directory>
